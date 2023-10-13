@@ -1,0 +1,48 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+   display: flex;
+   justify-content: space-between; /*los pone a los extremos, uno a la izquierda el otro a la derecha*/
+}
+
+main > button {
+
+    display: flex;
+    align-items: center; /* Envoie les eleents tout en bas de la nav */
+    justify-content: flex-end;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    position: fixed;
+}
+
+section {
+    display: none;
+}
+
+#entête {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem, 1.5rem;
+    margin: 10px;
+}
+
+img {
+    padding: margin 50px;
+}
+
+nav ul li{
+    display: flex; /* Mettez les éléments de la liste en ligne */
+    height: 50px;
+    list-style: none;/*sup les puces*/
+    align-items:initial;
+    justify-content:left;
+    margin: 10px;
+}
